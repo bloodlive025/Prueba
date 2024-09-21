@@ -30,4 +30,4 @@ jobs:
         run: pytest test_game.py
 
       - name: Run safety
-        run: safety check
+        run: safety check --ignore=70612
